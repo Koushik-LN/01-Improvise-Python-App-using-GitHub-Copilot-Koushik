@@ -3,7 +3,7 @@ from pydantic import BaseModel
 
 app = FastAPI(
     title="Text Token API",
-    description="Welcome Varsha! Generate tokens and checksums.",
+    description="Welcome Koushik! Generate tokens and checksums.",
     version="1.0.0"
 )
 
@@ -13,7 +13,7 @@ class TextRequest(BaseModel):
 @app.get("/")
 def welcome():
     return {
-        "message": "Welcome Varsha!"
+        "message": "Welcome Koushik!"
     }
 
 @app.post("/generate")
