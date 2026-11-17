@@ -12,7 +12,7 @@ def test_welcome():
 
     assert response.status_code == 200
     assert response.json() == {
-        "message": "Welcome Varsha!"
+        "message": "Welcome Koushik!"
     }
 
 
